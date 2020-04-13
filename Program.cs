@@ -11,6 +11,7 @@ namespace HW11._04
             System.Console.WriteLine("What kind of car do you have in your salon?");
             Avto [] cars = new Avto [numb];
             for (int i = 0; i < numb; i++){
+                cars[i] = new Avto();
                 System.Console.Write("Enter name of the car: ");
                 cars[i].nameOfModel = Console.ReadLine();
                 System.Console.Write("Enter year of issue: ");
